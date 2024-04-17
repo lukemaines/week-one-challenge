@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon - Home</title>
+    <!-- made page title specific for tab identification  -->
 </head>
 
 <body>
-    <div class="header">
+    <header>
+        <!-- changed from div to header -->
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav>
+            <!-- changed from div to nav, to signify this is a section with important navigation elements -->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,11 +25,12 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="hero"></div>
     <div class="content">
         <div id="search-engine-optimization" class="search-engine-optimization">
+            <!-- this was missing the link id, added so the link for this section has functionality -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -71,12 +75,13 @@
             </p>
         </div>
     </div>
-    <div class="footer">
+    <footer>
+        <!-- changed from div to footer -->
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2024 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
